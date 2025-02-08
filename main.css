@@ -40,11 +40,12 @@ body{
 .buttons button:hover{
     cursor: pointer;
     border: 2px solid black;
+    transform: scale(1.1);
 }
 
 .table{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     text-align: center;
     gap: 16px;
 }
